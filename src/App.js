@@ -1,12 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import GaLotseMicrosite from './components/GaLotseMicrosite';
 
 function App() {
-  return (
-    <div className="App">
-      Check the Flow
-    </div>
-  );
+  return <GaLotseMicrosite />;
 }
 
 export default App;
